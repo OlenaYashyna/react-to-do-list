@@ -11,4 +11,34 @@
 
 .container {
     padding: 20px;
+    border: 1px solid grey;
+    background-color: bisque;
+}
+
+
+.unvisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.text{
+    border: 1px solid grey;
+    padding: 5px;
+    width: 175px;
+    background-color: #ffffff;
+}
+.input-block{
+    display: flex;
+    justify-content: left;
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: bisque;
+
+}
+.list{
+    padding: 0;
 }
